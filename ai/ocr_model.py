@@ -60,3 +60,4 @@ def pytesseract_model_works(images,visualization=False):
             plt.imshow(images[i])
             plt.title("{} Image".format(str(i)));
             plt.show()
+            
