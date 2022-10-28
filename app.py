@@ -1,4 +1,3 @@
-
 import argparse
 import io
 import os
@@ -14,7 +13,7 @@ from flask import Flask, render_template, request, redirect, Response
 app = Flask(__name__)
 
 
-model = torch.hub.load("ultralytics/yolov5", "custom", path = "model/last.pt", force_reload=True)
+model = torch.hub.load("hbadera/yolov5", "custom", path = "model/last.pt", force_reload=True)
 
 model.eval()
 model.conf = 0.5  
