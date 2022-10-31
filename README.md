@@ -91,7 +91,6 @@ The entire code for the webapp can be found [here.](https://github.com/prateekra
 
 ## Source  
 - https://docs.python.org/3/library/csv.html  
-- https://github.com/ultralytics/yolov5  
 - https://github.com/PaddlePaddle/PaddleOCR
 - https://medium.com/move-on-ai/yolov5-object-detection-with-your-own-dataset-6e3823a8f66b  
 - https://github.com/JaidedAI/EasyOCR  
