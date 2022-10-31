@@ -1,7 +1,6 @@
 """
 PyTorch utils
 """
-
 import math
 import os
 import platform
