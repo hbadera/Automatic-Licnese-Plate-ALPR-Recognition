@@ -102,8 +102,3 @@ The entire code for the webapp can be found [here.](https://github.com/prateekra
 ## To Do 
 - [ ] use fcaykon pip yolo instead of hardcoded yolo files
 - [ ] hugging face
-
-
-
-
-
