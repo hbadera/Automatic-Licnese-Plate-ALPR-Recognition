@@ -92,6 +92,7 @@ The entire code for the webapp can be found [here.](https://github.com/prateekra
 ## Source  
 - https://docs.python.org/3/library/csv.html  
 - https://github.com/PaddlePaddle/PaddleOCR
+
 - https://medium.com/move-on-ai/yolov5-object-detection-with-your-own-dataset-6e3823a8f66b  
 - https://github.com/JaidedAI/EasyOCR  
 -     https://www.researchgate.net/publication/319198085_License_Number_Plate_Recognition_System_using_Entropy_basedFeatures_Selection_Approach_with_SVM/figures?lo=1&utm_source=google&utm_medium=organic
