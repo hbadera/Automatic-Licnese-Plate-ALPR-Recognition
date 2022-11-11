@@ -1,4 +1,3 @@
-# YOLOv5 🚀 by Ultralytics, GPL-3.0 license
 """
 Download utils
 """
@@ -43,7 +42,7 @@ def safe_download(file, url, url2=None, min_bytes=1E0, error_msg=''):
         LOGGER.info('')
 
 
-def attempt_download(file, repo='ultralytics/yolov5'):  # from utils.downloads import *; attempt_download()
+def attempt_download(file, repo='hbadera/yolov5'):  # from utils.downloads import *; attempt_download()
     # Attempt file download if does not exist
     from utils.general import LOGGER
 
