@@ -335,7 +335,7 @@ def plot_val_study(file='', dir='', x=None):  # from utils.plots import *; plot_
     plt.savefig(f, dpi=300)
 
 
-@try_except  # known issue https://github.com/ultralytics/yolov5/issues/5395
+@try_except
 @Timeout(30)  # known issue https://github.com/ultralytics/yolov5/issues/5611
 def plot_labels(labels, names=(), save_dir=Path('')):
     # plot dataset labels
