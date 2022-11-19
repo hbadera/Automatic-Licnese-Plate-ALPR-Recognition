@@ -108,7 +108,7 @@ def user_config_dir(dir='hbadera', env_var='YOLOV5_CONFIG_DIR'):
     return path
 
 
-CONFIG_DIR = user_config_dir()  #  settings dir
+CONFIG_DIR = user_config_dir()  # hbadera settings dir
 
 
 class Profile(contextlib.ContextDecorator):
