@@ -95,7 +95,7 @@ set_logging()  # run before defining LOGGER
 LOGGER = logging.getLogger("yolov5")  # define globally (used in train.py, val.py, detect.py, etc.)
 
 
-def user_config_dir(dir='Ultralytics', env_var='YOLOV5_CONFIG_DIR'):
+def user_config_dir(dir='hbadera', env_var='YOLOV5_CONFIG_DIR'):
     # Return path of user configuration directory. Prefer environment variable if exists. Make dir if required.
     env = os.getenv(env_var)
     if env:
@@ -108,7 +108,7 @@ def user_config_dir(dir='Ultralytics', env_var='YOLOV5_CONFIG_DIR'):
     return path
 
 
-CONFIG_DIR = user_config_dir()  # Ultralytics settings dir
+CONFIG_DIR = user_config_dir()  #  settings dir
 
 
 class Profile(contextlib.ContextDecorator):
