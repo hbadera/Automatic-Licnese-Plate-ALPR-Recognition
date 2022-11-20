@@ -436,7 +436,6 @@ def check_font(font=FONT, progress=False):
 
 def check_dataset(data, autodownload=True):
     # Download and/or unzip dataset if not found locally
-    # Usage: https://github.com/ultralytics/yolov5/releases/download/v1.0/coco128_with_yaml.zip
 
     # Download (optional)
     extract_dir = ''
