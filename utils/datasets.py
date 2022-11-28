@@ -1,3 +1,4 @@
+.
 """
 Dataloaders and dataset utils
 """
@@ -31,7 +32,6 @@ from utils.general import (DATASETS_DIR, LOGGER, NUM_THREADS, check_dataset, che
 from utils.torch_utils import torch_distributed_zero_first
 
 # Parameters
-HELP_URL = 'https://github.com/ultralytics/yolov5/wiki/Train-Custom-Data'
 IMG_FORMATS = 'bmp', 'dng', 'jpeg', 'jpg', 'mpo', 'png', 'tif', 'tiff', 'webp'  # include image suffixes
 VID_FORMATS = 'asf', 'avi', 'gif', 'm4v', 'mkv', 'mov', 'mp4', 'mpeg', 'mpg', 'ts', 'wmv'  # include video suffixes
 BAR_FORMAT = '{l_bar}{bar:10}{r_bar}{bar:-10b}'  # tqdm bar format
