@@ -68,3 +68,5 @@ class Callbacks:
 
         for logger in self._callbacks[hook]:
             logger['callback'](*args, **kwargs)
+
+            .
