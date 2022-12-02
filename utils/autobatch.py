@@ -55,3 +55,4 @@ def autobatch(model, imgsz=640, fraction=0.9, batch_size=16):
     b = int((f * fraction - p[1]) / p[0])  # y intercept (optimal batch size)
     LOGGER.info(f'{prefix}Using batch-size {b} for {d} {t * fraction:.2f}G/{t:.2f}G ({fraction * 100:.0f}%)')
     return b
+.
