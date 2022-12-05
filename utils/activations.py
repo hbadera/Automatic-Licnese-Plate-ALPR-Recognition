@@ -99,3 +99,4 @@ class MetaAconC(nn.Module):
         beta = torch.sigmoid(self.fc2(self.fc1(y)))  # bug patch BN layers removed
         dpx = (self.p1 - self.p2) * x
         return dpx * torch.sigmoid(beta * dpx) + self.p2 * x
+.
