@@ -33,4 +33,3 @@ def notebook_init(verbose=True):
     select_device(newline=False)
     print(emojis(f'Setup complete ✅ {s}'))
     return display
-.
