@@ -40,5 +40,3 @@ ENV OMP_NUM_THREADS=8
 
 # DDP test
 # python -m torch.distributed.run --nproc_per_node 2 --master_port 1 train.py --epochs 3
-.
-.
